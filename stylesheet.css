@@ -8,7 +8,7 @@ body {
 }
 
 header {
-  height: 50px;
+  height: 30px;
   width: 100%;
   background-color: rgba(122, 199, 148, 0.9);
   position :fixed;
