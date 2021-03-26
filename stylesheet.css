@@ -16,6 +16,27 @@ header {
   z-index: 10;
 }
 
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
 
 
 
@@ -89,9 +110,7 @@ a {
   opacity: 1;
 }
 
-.fa {
-  margin-right: 5px;
-}
+
 
 
 
@@ -100,14 +119,7 @@ a {
   margin-top: 20px;
 }
 
-.header-left {
-  float: left;
-}
 
-.header-right {
-  float: right;
-  margin-right: -25px;
-}
 
 .header-right a {
   line-height: 65px;
@@ -122,15 +134,6 @@ a {
   background-color: rgba(255, 255, 255, 0.3);
 }
 
-/* Tambahkan CSS untuk menu-icon */
-.menu-icon {
-  color: white;
-  float: right;
-  font-size: 25px;
-  padding: 21px 0;
-  /* Gantikan property display ke none */
-  display: none;
-}
 
 
 .lesson-wrapper {
