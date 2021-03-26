@@ -4,8 +4,20 @@
 
 body {
   margin: 0;
-  font-family: "Lucida Grande";
+  font-family: "Arial Narrow";
 }
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(122, 199, 148, 0.9);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+
+
 
 a {
   text-decoration: none;
@@ -81,14 +93,7 @@ a {
   margin-right: 5px;
 }
 
-header {
-  height: 65px;
-  width: 100%;
-  background-color: rgba(34, 49, 52, 0.9);
-  position :fixed;
-  top: 0;
-  z-index: 10;
-}
+
 
 .logo {
   width: 124px;
